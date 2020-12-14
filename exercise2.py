@@ -145,28 +145,3 @@ def checkout():
 
 
 help_desk()
-# ADD IN THE FOLLOWING CODE ==========
-        # floor_wanted = str(input("What floor would you like to be on? "))
-        # floor = hotel.get(floor_wanted)
-        
-        # if floor:
-        #     print(f'{floor_wanted} is {floor}')
-        #     hm_gstsCheck = True
-        # else:
-        #     print(f'{floor_wanted} is not a floor')
-        #     hm_gstsCheck = True
-        # room_wanted = str(input("And what room would you like? "))
-        # room = hotel[floor_wanted].get(room_wanted)
-        # names = (user_name.capitalize() + ', ' + guest1.capitalize() + ', ' + guest2.capitalize() + ', ' + guest3.capitalize() + ', ' + guest4.capitalize() + ', ' + guest5.capitalize())
-
-        # if room == "":
-        #     print(f'Sorry {room_wanted} is already taken')
-        #     print("Choose another room.")
-        #     room_wanted = str(input("And what room would you like? "))
-        #     # hotel[room_wanted] = names
-        #     hm_gstsCheck = True
-        # else:
-        #     print(f'You will now be assigned to {room_wanted}')
-        #     hotel[floor_wanted] = room_wanted
-        #     hm_gstsCheck = True
-        #     print(hotel[floor_wanted][room_wanted])
